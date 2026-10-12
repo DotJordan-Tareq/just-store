@@ -5,7 +5,7 @@ const ProductsList = ({products,addToCart,addtofav}) => {
     // console.log(products);
     
   return (
-    <div>ProductsList
+    <div>
 
         <div className="products-grid" style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"10px"}}>
             {products.map((product,i)=>{
